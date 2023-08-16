@@ -4,6 +4,8 @@ email: paulmorrishhl@gmail.com
 description: Everything related to software testing. Tutorials, news, opinion, rants, and more!
 url: "https://paulmorrishhl.github.io"
 
+theme: minima
+
 # Other Settings
 author:
   name: Paul Morris
