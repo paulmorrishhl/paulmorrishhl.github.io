@@ -1,2 +1,34 @@
+# Site Settings
 title: The Geordie Tester
-description: A home for resources and information about software testing
+email: paulmorrishhl@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Everything related to software testing. Tutorials, news, opinion, rants, and more!
+baseurl: ""
+url: "https://paulmorrishhl.github.io" # the base hostname & protocol for your site, replace 'username' with your actual GitHub username
+
+# Build Settings
+markdown: kramdown
+theme: minima # or another theme you're using
+plugins:
+  - jekyll-feed
+
+# Exclude From Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - LICENSE
+
+# Other Settings
+author:
+  name: Paul Morris
+  email: paulmorrishhl@gmail.com
+
+# Social Media Links (Optional)
+twitter_username: @paulmorrishhl
+github_username:  @paulmorrishhl
+
+# Pagination (Optional)
+paginate: 5 # amount of posts to show
+paginate_path: "/page:num/"
