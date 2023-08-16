@@ -6,19 +6,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://paulmorrishhl.github.io" # the base hostname & protocol for your site, replace 'username' with your actual GitHub username
 
-# Build Settings
-markdown: kramdown
-theme: minima # or another theme you're using
-plugins:
-  - jekyll-feed
-
 # Exclude From Build
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - README.md
-  - LICENSE
 
 # Other Settings
 author:
