@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My GitHub Page</title>
-</head>
-<body>
-    <h1>Welcome to my GitHub Page!</h1>
-    <p>This is a simple paragraph.</p>
-</body>
-</html>
+---
+layout: default
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
