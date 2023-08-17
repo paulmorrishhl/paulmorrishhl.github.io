@@ -22,4 +22,4 @@ And here's a link: [Google](https://www.google.com)
 
 > This is a blockquote.
 
-That's the basics of a Markdown post!
+That's the basics of a Markdown post! This is also an updated string of text. 
